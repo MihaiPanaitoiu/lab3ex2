@@ -13,7 +13,7 @@ namespace lab3ex2
 
             //numar prim = numar intreg mai mare ca 1 care se imparte fix la 1 si la el insusi, deci are max 2 divizori
 
-           static bool isPrime(int n)
+           static bool IsPrime(int n)
             {
                 //daca este 1, nu este prim
                 if (n <= 1)
@@ -35,7 +35,7 @@ namespace lab3ex2
             Console.WriteLine("Introduceti numarul:");
             int n = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Numarul {(isPrime(n) ? "este" : "nu este")} prim");
+            Console.WriteLine($"Numarul {(IsPrime(n) ? "este" : "nu este")} prim");
         }
     }
 }
